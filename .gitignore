@@ -1,0 +1,35 @@
+# Virtual Environment
+agent_env/
+.venv/
+venv/
+ENV/
+
+# Environment Variables / API Keys
+.env
+
+# Python caching artifacts
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Next.js frontend dependencies and build folders
+**/node_modules/
+**/.next/
+
+# Frontend Configuration Boilerplate & Metadata
+**/eslint.config.mjs
+**/next.config.ts
+**/postcss.config.mjs
+**/tailwind.config.ts
+**/tsconfig.json
+**/package-lock.json
+**/package.json
+**/favicon.ico
+**/globals.css
+**/layout.tsx
+**/*.md
